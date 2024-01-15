@@ -1,0 +1,21 @@
+.navbar{
+  .nav-link:focus,
+  .nav-link:hover {
+    color: wheat;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.navbar-collapse {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+

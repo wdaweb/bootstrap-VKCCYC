@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- aos -->
+  <link rel="stylesheet" href="./css/aos.css">
+  <!-- style -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- https://demo.templatemonster.com/cn/demo/354782.html -->
+  <!-- https://demo.templatemonster.com/demo/339526.html -->
+  <!-- 20231212 03:46 有 -->
+
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/home.jpg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u1" role="button" data-bs-toggle="dropdown">
+              HOME
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u1">
+              <li><a class="dropdown-item" href="#">HOME v1</a></li>
+              <li><a class="dropdown-item" href="#">HOME v2</a></li>
+              <li><a class="dropdown-item" href="#">HOME v3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u2" role="button" data-bs-toggle="dropdown">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u2">
+              <li><a class="dropdown-item" href="#"> ABOUT US v1</a></li>
+              <li><a class="dropdown-item" href="#"> ABOUT US v2</a></li>
+              <li><a class="dropdown-item" href="#"> ABOUT US v3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u3" role="button" data-bs-toggle="dropdown">
+              OUR SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u3">
+              <li><a class="dropdown-item" href="#">SERVICES v1</a></li>
+              <li><a class="dropdown-item" href="#">SERVICES v2</a></li>
+              <li><a class="dropdown-item" href="#">SERVICES v3</a></li>
+              <li><a class="dropdown-item" href="#">SERVICES DETAILS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u4" role="button" data-bs-toggle="dropdown">
+              BLOGS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u4">
+              <li><a class="dropdown-item" href="#">BLOGS</a></li>
+              <li><a class="dropdown-item" href="#">BLOGS STANDARD</a></li>
+              <li><a class="dropdown-item" href="#">BLOGS GRID</a></li>
+              <li><a class="dropdown-item" href="#">BLOGS DETAILS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u5" role="button" data-bs-toggle="dropdown">
+              PAGES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u5">
+              <li><a class="dropdown-item" href="#">PAGES v1</a></li>
+              <li><a class="dropdown-item" href="#">PAGES v2</a></li>
+              <li><a class="dropdown-item" href="#">PAGES v3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="u6" role="button" data-bs-toggle="dropdown">
+              GALLERY
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="u6">
+              <li><a class="dropdown-item" href="#">GALLERY v1</a></li>
+              <li><a class="dropdown-item" href="#">GALLERY v2</a></li>
+              <li><a class="dropdown-item" href="#">GALLERY v3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 封面 -->
+  <section id="section01">
+    <!-- swiper -->
+    <div class="swiper mySwiper ">
+      <div class="swiper-wrapper ">
+        <div class="swiper-slide">
+          <img src="./img/top1.png">
+          <div class="row">
+            <div class="col text-center d-inline">
+              <!-- aos -->
+              <div data-aos="fade-up" data-aos-duration="4000" data-aos-once="false">
+                <h1>Double The Pleasure</h1>
+                <h1>Double The Financial</h1>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, recusandae minima! Quo libero nesciunt
+                  voluptatem quaerat eum laudantium illo officiis.
+                  <br>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nostrum.
+                </p>
+                <button type="button" class="btn btn-outline-warning">OUR SERVICES <i
+                    class="bi bi-arrow-right-circle-fill"></i> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/top2.png">
+          <div class="row">
+            <div class="col text-center">
+              <!-- aos -->
+              <div data-aos="fade-up" data-aos-duration="4000" data-aos-once="false">
+                <h1>Double The Pleasure</h1>
+                <h1>Double The Financial</h1>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, recusandae minima! Quo libero nesciunt
+                  voluptatem quaerat eum laudantium illo officiis.
+                  <br>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nostrum.
+                </p>
+                <button type="button" class="btn btn-outline-warning">OUR SERVICES <i
+                    class="bi bi-arrow-right-circle-fill"></i> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/top3.png">
+          <div class="row">
+            <div class="col text-center">
+              <!-- aos -->
+              <div data-aos="fade-up" data-aos-duration="4000" data-aos-once="false">
+                <h1>Double The Pleasure</h1>
+                <h1>Double The Financial</h1>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, recusandae minima! Quo libero nesciunt
+                  voluptatem quaerat eum laudantium illo officiis.
+                  <br>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nostrum.
+                </p>
+                <button type="button" class="btn btn-outline-warning">OUR SERVICES <i
+                    class="bi bi-arrow-right-circle-fill"></i> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+  </section>
+
+  <!-- 介紹01 -->
+  <section id="section02" class="bg-light">
+    <div class="container">
+      <div class="row row-cols-xl-2 ">
+        <div class="col-30 mt-4 text-center mt-xl-5 ">
+          <!-- vanilla-tilt -->
+          <div data-tilt data-tilt-scale="1.1">
+            <img src="./img/s2.jpg">
+          </div>
+        </div>
+        <div class="col">
+          <div class="col-30 mt-4">
+            <span class="line"></span>
+            <span class="h5">Company Profile</span>
+          </div>
+
+          <div class="col-30 mt-4">
+            <h2 class="fs-50 fw-bold b">
+              MAKING YOUR LIFE
+            </h2>
+            <h2 class="fs-50 fw-bold y">
+              WORRY-
+              <br>
+              FREE
+            </h2>
+          </div>
+
+          <div class="col-30 mt-4 mb-4">
+            <p class="mb-40">
+              There are several benefits of retirement planning early in life that you must not overlook. You can
+              develop
+              a
+              habit of saving your money efficiently for the future when you have a clear idea of the objective.
+            </p>
+            <p>
+              In your younger years, it is understandable that you may want to spend more than save. Nonetheless, in the
+              longer run, the benefits of retirement planning will help put everything in perspective. Another early
+              retirement planning benefit is that you can choose your age of retirement, as per your convenience. When
+              you
+              have enough to go on, you can decide when you take a break from the financial responsibilities of life.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-15 ">
+              <ul>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Emergencies Backup </li>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Early Retirement Option </li>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Understand Your Needs </li>
+              </ul>
+            </div>
+            <div class="col-md-15">
+              <ul>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Prepare Investment Goals</li>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Determine Time Frame</li>
+                <li> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Legacy Opportunities</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div id="btn">
+              <button type="button" class="btn btn-outline-warning">OUR SERVICES &nbsp;<i
+                  class="bi bi-arrow-right-circle-fill"></i>
+                <button type="button" class="btn btn01">OUR SERVICES &nbsp;<i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 介紹03 -->
+  <section id="section03" class="mt-5 ">
+    <div class="container mb-5">
+      <div class="row">
+        <!-- aos -->
+        <div class="col text-center" data-aos="fade-up" data-aos-duration="4000">
+          <h5 class="fw-900 y ">Why Choose Us?</h5>
+          <h2 class="fw-900 fs-48 lh-62">How to Choose a Suitable <span class="y">Retirement </span> Plan</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- vanilla-tilt -->
+    <div class="container ">
+      <div class="row">
+        <div class="col-30 col-md-7">
+          <div class="your-element  bb w  m-auto text-center rounded-2 mb-4" data-tilt data-tilt-glare
+            data-tilt-max-glare="0.8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+              class="bi bi-bank  mt-3 mb-3" viewBox="0 0 16 16">
+              <path
+                d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z" />
+            </svg>
+            <br>
+            <h3 class="fw-900">Tax benefits on investments</h3>
+            <p class="lh-lg">We are here to provied Tax releted benefits on investments.</p>
+          </div>
+
+        </div>
+        <div class="col-md-7">
+          <div class="your-element bb w  m-auto text-center rounded-2 mb-4" data-tilt data-tilt-glare
+            data-tilt-max-glare="0.8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+              class="bi bi-lightbulb-fill mt-3 mb-3" viewBox="0 0 16 16">
+              <path
+                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <br>
+            <h3 class="fw-900">Customisable as per your needs</h3>
+            <p class="lh-lg">We are here to provied Customisable as per your needs.</p>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="your-element bb w  m-auto text-center rounded-2 mb-4" data-tilt data-tilt-glare
+            data-tilt-max-glare="0.8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+              class="bi bi-bank  mt-3 mb-3" viewBox="0 0 16 16">
+              <path
+                d="M7.964 1.527c-2.977 0-5.571 1.704-6.32 4.125h-.55A1 1 0 0 0 .11 6.824l.254 1.46a1.5 1.5 0 0 0 1.478 1.243h.263c.3.513.688.978 1.145 1.382l-.729 2.477a.5.5 0 0 0 .48.641h2a.5.5 0 0 0 .471-.332l.482-1.351c.635.173 1.31.267 2.011.267.707 0 1.388-.095 2.028-.272l.543 1.372a.5.5 0 0 0 .465.316h2a.5.5 0 0 0 .478-.645l-.761-2.506C13.81 9.895 14.5 8.559 14.5 7.069c0-.145-.007-.29-.02-.431.261-.11.508-.266.705-.444.315.306.815.306.815-.417 0 .223-.5.223-.461-.026a.95.95 0 0 0 .09-.255.7.7 0 0 0-.202-.645.58.58 0 0 0-.707-.098.735.735 0 0 0-.375.562c-.024.243.082.48.32.654a2.112 2.112 0 0 1-.259.153c-.534-2.664-3.284-4.595-6.442-4.595Zm7.173 3.876a.565.565 0 0 1-.098.21.704.704 0 0 1-.044-.025c-.146-.09-.157-.175-.152-.223a.236.236 0 0 1 .117-.173c.049-.027.08-.021.113.012a.202.202 0 0 1 .064.199Zm-8.999-.65a.5.5 0 1 1-.276-.96A7.613 7.613 0 0 1 7.964 3.5c.763 0 1.497.11 2.18.315a.5.5 0 1 1-.287.958A6.602 6.602 0 0 0 7.964 4.5c-.64 0-1.255.09-1.826.254ZM5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+            <br>
+            <h3 class="fw-900">Regular income after retirement</h3>
+            <p class="lh-lg">We are here to provied Regular income after retirement.</p>
+          </div>
+        </div>
+        <div class="col-md-7">
+
+          <div class="your-element bb w  m-auto text-center rounded-2 mb-4" data-tilt data-tilt-glare
+            data-tilt-max-glare="0.8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+              class="bi bi-bank  mt-3 mb-3" viewBox="0 0 16 16">
+              <path
+                d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+            </svg>
+            <br>
+            <h3 class="fw-900">Guaranteed lifelong income</h3>
+            <p class="lh-lg">We are here to provied Guaranteed lifelong income after retirement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </section>
+
+  <!-- 合作團體 -->
+  <section id="section04">
+    <!-- swiper -->
+    <div class="container">
+      <div id="swiper01" class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/content01.jpg" class="card-img-top">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/content02.jpg" class="card-img-top">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/top1.png" class="card-img-top">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/top2.png" class="card-img-top">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/top3.png" class="card-img-top">
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 數據表 -->
+  <section id="section05">
+
+
+  </section>
+
+  <!-- 飯店設施 -->
+  <section id="section06"></section>
+
+  <!-- 房客意見 -->
+  <section id="section07"></section>
+
+  <!-- 房間介紹影片 -->
+  <section id="section08"></section>
+
+  <!-- 周邊景點 -->
+  <section id="section09"></section>
+
+  <!-- 尾頁 -->
+  <section id="section10">
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-xl-10">
+          <div class="text-center">
+            <p class="text-white">
+              © Yoursite 2023 All Right Reserved.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-5"></div>
+        <div class="col-xl-15">
+          <div class="text-center">
+            <p class="text-white">
+              Terms & Conditions | Privacy Policy | Disclaimer
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- bootstrap -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js'></script>
+  <!-- JQ -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- gsap -->
+  <script src="./gsap/gsap.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- https://micku7zu.github.io/vanilla-tilt.js/ -->
+  <script type="text/javascript" src="./js/vanilla-tilt.min.js"></script>
+  <!-- moving-letters -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <script>
+    // swiper
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    })
+
+    const swiper01 = new Swiper('#swiper01', {
+      direction: 'horizontal',
+      loop: true,
+      speed: 1000,
+      spaceBetween: 15,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+      },
+      slidesPerView: 1,
+      effect: "coverflow",
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        920: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 5,
+        },
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    })
+  </script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>

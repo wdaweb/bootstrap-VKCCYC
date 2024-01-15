@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+@import '../mixins/rwd';
+@import 'top';
+@import '_section01.scss';
+@import '_section02.scss';
+@import '_section03.scss';
+@import '_section04.scss';
+@import '_section05.scss';
+@import '_section10.scss';
